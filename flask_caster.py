@@ -15,7 +15,7 @@ class FlaskCaster(object):
 
     This will do a few things:
      - Assure that the 'size' query parameter is always an integer.
-     - Assure that the 'json' query parameter is always an integer.
+     - Assure that the 'json' query parameter is always an boolean.
      - Assure that the 'json' query parameter is always present, even if
        if it wasn't provided by the end-user.
     """
