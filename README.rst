@@ -1,4 +1,4 @@
-Flask-Caster: Cast Types to Flask Query Parameters
+Flask-Caster: Cast Types of Flask Query Parameters
 ==================================================
 
 This simple Flask extension allows you to cast the type of (and assign defaults to) request query parameters in Flask.
