@@ -15,10 +15,10 @@ Example Usage
 
 This will do a few things:
 
- - Assure that the ``size`` query parameter is always an integer.
- - Assure that the ``json`` query parameter is always an integer.
- - Assure that the ``json`` query parameter is always present, even if
-   if it wasn't provided by the end-user.
+- Assure that the ``size`` query parameter is always an integer.
+- Assure that the ``json`` query parameter is always an integer.
+- Assure that the ``json`` query parameter is always present, even if
+  if it wasn't provided by the end-user.
 
 Assignable parameters include ``ints``, ``booleans``, ``always``, and ``always_default``. ``always_default`` can be set to any value, or to a callable, which will receive one keyword argument: ``arg_name``.
 
