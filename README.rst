@@ -8,6 +8,11 @@ Example Usage
 
 ::
 
+    from flask import Flask
+    from flask_caster import FlaskCaster
+
+    app = Flask(__name__)
+
     caster = FlaskCaster(app)
     caster.ints = ['size']
     caster.booleans = ['json']
