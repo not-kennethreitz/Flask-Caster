@@ -28,6 +28,8 @@ This will do a few things:
 Assignable properties include ``ints``, ``booleans``, ``always``, and ``always_default``. The ``always_default`` property can be set to any value,
 or to a callable, which will receive one keyword argument: ``arg_name``.
 
+For boolean casting, ``0``, ``false``, ``f``, and ``null`` will
+automatically be converted to ``False``.
 
 Installation
 ------------

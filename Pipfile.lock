@@ -1,0 +1,39 @@
+{
+    "default": {
+        "MarkupSafe": {
+            "version": "==0.23",
+            "hash": "sha256:a4ec1aff59b95a14b45eb2e23761a0179e98319da5a7eb76b56ea8cdc7b871c3"
+        },
+        "Jinja2": {
+            "version": "==2.9.4",
+            "hash": "sha256:93b97a811b575998899b293fdb2144c536aeb7d6ee13464b0cf8e86ae64eb56b"
+        },
+        "Werkzeug": {
+            "version": "==0.11.15",
+            "hash": "sha256:c6f6f89124df0514d886782c658c3e12f2caaa94da34cee3fd82eebf4ebf052b"
+        },
+        "Flask": {
+            "version": "==0.12",
+            "hash": "sha256:7f03bb2c255452444f7265eddb51601806e5447b6f8a2d50bbc77a654a14c118"
+        },
+        "itsdangerous": {
+            "version": "==0.24",
+            "hash": "sha256:cbb3fcf8d3e33df861709ecaf89d9e6629cff0a217bc2848f1b41cd30d360519"
+        },
+        "click": {
+            "version": "==6.7",
+            "hash": "sha256:29f99fc6125fbc931b758dc053b3114e55c77a6e4c6c3a2674a2dc986016381d"
+        }
+    },
+    "develop": {},
+    "_meta": {
+        "sources": [
+            {
+                "url": "https://pypi.python.org/simple",
+                "verify_ssl": true
+            }
+        ],
+        "requires": {},
+        "Pipfile-sha256": "b42cd77872709b84285bb9d191313360f29d73dc6f719a32af9e6a937ec6683e"
+    }
+}
