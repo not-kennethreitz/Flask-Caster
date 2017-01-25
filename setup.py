@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Flask-Caster: Cast Types of Flask Query Parameters
 ==================================================
