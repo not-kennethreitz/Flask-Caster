@@ -25,7 +25,7 @@ This will do a few things:
 - Assure that the ``json`` query parameter is always present, even if
   if it wasn't provided by the end-user.
 
-Query paramaeters are accessable via ``request.args``.
+Query parameters are accessable via ``request.args``.
 
 Assignable properties include ``ints``, ``booleans``, ``always``, and ``always_default``. The ``always_default`` property can be set to any value,
 or to a callable, which will receive one keyword argument: ``arg_name``.
