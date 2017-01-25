@@ -40,7 +40,7 @@ class FlaskCaster(object):
                 # Call default if it's a callable.
                 if callable(self.always_default):
                     # Pass in the key name to the callable.
-                    value = self.always_default(arg=a)
+                    value = self.always_default(arg_name=a)
                 else:
                     value = self.always_default
 
